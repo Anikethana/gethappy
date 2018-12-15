@@ -130,3 +130,12 @@
         margin: 20px 0;
     }
 }
+
+.login .form-control.state {
+    width: 100px;
+    display: inline-block;
+}
+
+.login .form-check{
+    padding-left: 0;
+}

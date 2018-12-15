@@ -52,6 +52,14 @@ body {
     margin-top: 20px;
 }
 
+.ml20 {
+    margin-left: 20px;
+}
+
+.ml40{
+    margin-left: 40px;
+}
+
 .navbar-min {
     min-height: 50px;
     background-color: #2170a6;

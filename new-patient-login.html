@@ -36,11 +36,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">HOW IT WORKS</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="new-patient-login.html">NEW PATIENT</a>
-                </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="return-patient-login.html">RETURNING PATIENT</a>
+                    <a class="nav-link" href="#">NEW PATIENT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">RETURNING PATIENT</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">FAQ</a>
@@ -66,15 +66,20 @@
 
             <div class="col-lg-7 login-form">
                 <p>I am a:</p>
-                <div class="patient-type">
+                <div class="patient-type selected">
                     <a><img src="img/group-20.png"></a>
                     <span>New Patient</span>
                 </div>
-                <div class="patient-type selected">
+                <div class="patient-type">
                     <a><img src="img/group-21.png"></a>
                     <span>Returning Patient</span>
                 </div>
                 <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="email" class="form-control" id="name" aria-describedby="emailHelp"
+                               placeholder="Enter full name">
+                    </div>
                     <div class="form-group">
                         <label for="email">Email ID</label>
                         <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
@@ -86,10 +91,15 @@
                                placeholder="Enter your password">
                     </div>
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                        <label for="state">State</label> <br>
+                        <select class="form-control state" id="state">
+                            <option>NY</option>
+                            <option>CA</option>
+                        </select>
+                        <input type="checkbox" class="form-check-input ml20" id="exampleCheck1">
+                        <label class="form-check-label ml40" for="exampleCheck1">I don't live in US</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Login</button>
+                    <button type="submit" class="btn btn-primary">Get Happy</button>
                 </form>
             </div>
 
