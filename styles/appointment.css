@@ -1,0 +1,88 @@
+.appointment {
+    padding: 50px 0;
+    font-size: 20px;
+    background: #fff;
+}
+
+.appointment .blue {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.35;
+    letter-spacing: 0.1px;
+    text-align: justify;
+    color: #1eb7f9;
+}
+
+.appointment-widget-header, .appointment-widget-body {
+    background: #fff;
+    min-height: 100px;
+    -webkit-box-shadow: 0px 3px 13px -1px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 3px 13px -1px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 3px 13px -1px rgba(0, 0, 0, 0.16);
+}
+
+.appointment .available {
+    width: 39px;
+    height: 19px;
+    background-color: #49ce46;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+
+.appointment .unavailable {
+    width: 39px;
+    height: 19px;
+    background-color: #707070;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+
+.appointment .gj-datepicker {
+    margin: auto;
+}
+
+.appointment-widget-body {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.appointment-widget-body .time-slot {
+    background-color: #707070;
+    color: #fff;
+    width: 100%;
+    height: 84px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.appointment-widget-body .time-slot .time {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.appointment-widget-body .time-slot .status {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.appointment-widget-body .time-slot.available {
+    background-color: #49ce46;
+}

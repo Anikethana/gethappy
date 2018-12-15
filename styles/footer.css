@@ -1,0 +1,27 @@
+.section-five {
+    padding-top: 100px;
+    background: #f4f8fb;
+}
+
+.icon::before {
+    content: " ";
+    display: inline-block;
+    width: 25px;
+    height: 18px;
+    margin-right: 10px;
+    background: url(../img/003-youtube-play-button.png);
+}
+
+.copy {
+    font-size: 18px;
+    text-align: center;
+    color: #979797;
+    margin-top: 50px;
+}
+
+.section-five a {
+    display: block;
+    font-size: 20px;
+    color: #616161;
+    cursor: pointer;
+}

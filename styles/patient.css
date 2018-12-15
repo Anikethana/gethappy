@@ -1,0 +1,132 @@
+.login {
+    background: #fff;
+    font-size: 25px;
+}
+
+.patient-type {
+    width: 170px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.patient-type span {
+    display: block;
+    font-size: 19px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.patient-type.selected {
+    border: 1px solid #1eb7f9;
+    border-radius: 10px;
+}
+
+.patient-type.selected span {
+    color: #1eb7f9;
+}
+
+.login p {
+    text-align: left;
+}
+
+.login-form {
+    padding: 100px;
+    background: #f4f8fb;
+    margin-top: 100px;
+}
+
+.login .row > div {
+    margin: 50px 0;
+}
+
+.login .left-col {
+    background: #1eb7f9;
+    color: #fff;
+}
+
+.login .left-col .header {
+    font-size: 43px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.login .login-form label {
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #6b6b6b;
+}
+
+.login .login-form .form-group {
+    text-align: left;
+}
+
+.login .login-form .form-group input {
+    height: 71px;
+    font-size: 25px;
+}
+
+.login-form .form-check-label {
+    height: 70px;
+    padding: 25px 10px;
+}
+
+.login-form .btn-primary {
+    width: 130px;
+    height: 50px;
+    border-radius: 7px;
+    display: inline-block;
+    background-image: linear-gradient(129deg, #4d87f6, #1fb6f9);
+    margin: 30px 0;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.login .align-middle {
+    margin: 300px 20px;
+}
+
+.login .col-lg-5 {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.login .col-lg-7 {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.login form {
+    margin-top: 50px;
+}
+
+@media (max-width: 1000px) {
+    .login .align-middle {
+        margin: 20px;
+    }
+
+    .login .col-lg-7, .login .col-lg-5 {
+        border-radius: 15px;
+    }
+
+    .login .row > div {
+        margin: 20px 0;
+    }
+}

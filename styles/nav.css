@@ -1,0 +1,59 @@
+@media (min-width: 1500px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+body {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    background: #f4f8fb;
+    overflow-x: hidden;
+}
+
+.navbar {
+    min-height: 110px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.03);
+    background-color: #ffffff;
+    z-index: 10;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-align: left;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 15px;
+}
+
+.nav-item.active .nav-link {
+    color: #1eb7f9 !important;
+}
+
+.logo {
+    width: 220px;
+    object-fit: contain;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.navbar-min {
+    min-height: 50px;
+    background-color: #2170a6;
+    color: #fff;
+}
