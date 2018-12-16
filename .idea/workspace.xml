@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="473bdcaf-7a5a-4536-ae39-e53acd509547" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/new-patient-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/new-patient-login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/return-patient-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/return-patient-login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/patient.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/patient.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/patient-appointment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/appointment.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/appointment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/nav.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
+            <state relative-caret-position="-2073">
               <caret line="39" column="68" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="68" />
             </state>
           </provider>
@@ -26,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="299" selection-start-line="299" selection-end-line="299" selection-end-column="28" />
+            <state relative-caret-position="714">
+              <caret line="62" column="20" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="62" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -35,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/nav.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="751">
-              <caret line="58" column="5" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="360">
+              <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -50,25 +51,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new-patient-login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/return-patient-login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="69" column="51" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/patient-appointment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="387" column="55" selection-start-line="387" selection-start-column="55" selection-end-line="387" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/patient.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -80,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/appointment.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+            <state relative-caret-position="375">
+              <caret line="135" column="17" selection-start-line="135" selection-start-column="17" selection-end-line="135" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -107,6 +99,17 @@
       <find>banner-btn1</find>
       <find>media</find>
       <find>.navbar-light .navbar-nav .nav-link</find>
+      <find>available</find>
+      <find>bd-example-modal-lg</find>
+      <find>datepicker</find>
+      <find>btn-primary</find>
+      <find>form</find>
+      <find>time-slot.available</find>
+      <find>patient de</find>
+      <find>add</find>
+      <find>textare</find>
+      <find>address</find>
+      <find>fixed</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,20 +122,20 @@
         <option value="$PROJECT_DIR$/styles/foooter.css" />
         <option value="$PROJECT_DIR$/styles/app.css" />
         <option value="$PROJECT_DIR$/styles/footer.css" />
-        <option value="$PROJECT_DIR$/styles/appointment.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/patient-appointment.html" />
-        <option value="$PROJECT_DIR$/styles/nav.css" />
-        <option value="$PROJECT_DIR$/new-patient-login.html" />
         <option value="$PROJECT_DIR$/return-patient-login.html" />
         <option value="$PROJECT_DIR$/styles/patient.css" />
+        <option value="$PROJECT_DIR$/new-patient-login.html" />
+        <option value="$PROJECT_DIR$/styles/nav.css" />
+        <option value="$PROJECT_DIR$/styles/appointment.css" />
+        <option value="$PROJECT_DIR$/patient-appointment.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="2048" />
-    <option name="height" value="1129" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -171,7 +174,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544885239735" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544953325362" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -253,18 +256,18 @@
       <workItem from="1544697795901" duration="1454000" />
       <workItem from="1544704967586" duration="1401000" />
       <workItem from="1544709864278" duration="965000" />
-      <workItem from="1544857517665" duration="7152000" />
+      <workItem from="1544857517665" duration="13673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12122000" />
+    <option name="totallyTimeSpent" value="18643000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2048" height="1129" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1994018" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25822604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -274,7 +277,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.1764706" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.23312102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -325,31 +328,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/app.css">
+    <entry file="file://$PROJECT_DIR$/styles/patient.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="299" selection-start-line="299" selection-end-line="299" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/appointment.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        <state relative-caret-position="135">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
+        <state relative-caret-position="-2073">
           <caret line="39" column="68" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patient-appointment.html">
+    <entry file="file://$PROJECT_DIR$/styles/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="53" column="71" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
+        <state relative-caret-position="714">
+          <caret line="62" column="20" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="62" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-patient-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="42" column="71" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/return-patient-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-363">
+          <caret line="69" column="51" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -362,29 +372,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/nav.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="360">
+          <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new-patient-login.html">
+    <entry file="file://$PROJECT_DIR$/styles/appointment.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+        <state relative-caret-position="375">
+          <caret line="135" column="17" selection-start-line="135" selection-start-column="17" selection-end-line="135" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/return-patient-login.html">
+    <entry file="file://$PROJECT_DIR$/patient-appointment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="69" column="51" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/patient.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="373">
+          <caret line="387" column="55" selection-start-line="387" selection-start-column="55" selection-end-line="387" selection-end-column="55" />
         </state>
       </provider>
     </entry>

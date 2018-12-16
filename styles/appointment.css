@@ -85,4 +85,57 @@
 
 .appointment-widget-body .time-slot.available {
     background-color: #49ce46;
+    cursor: pointer;
+}
+
+.appointment .form-check-input {
+    margin-top: 8px;
+}
+
+.appointment-modal .modal-header {
+    background-color: #3cc0f9;
+    font-size: 27.5px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.appointment-modal .modal-title {
+    width: 100%;
+}
+
+.appointment-modal .modal-body P {
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #6b6b6b;
+}
+
+.appointment-modal .modal-body P span {
+    font-weight: normal;
+    color: #3cc0f9;
+}
+
+.appointment-modal .modal-body P small {
+    font-size: 18px;
+}
+
+.custom-file-control:after {
+    content: attr(data-content) !important;
+}
+
+.appointment-modal form {
+    max-width: 1000px;
+}
+
+.appointment-modal .form-check {
+    padding: 5px 50px;
 }
