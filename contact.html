@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="styles/patient.css" type="text/css" rel="stylesheet"/>
+    <link href="styles/contact.css" type="text/css" rel="stylesheet"/>
     <link href="styles/nav.css" type="text/css" rel="stylesheet"/>
     <link href="styles/footer.css" type="text/css" rel="stylesheet"/>
     <link href="fonts/fonts.min.css" type="text/css" rel="stylesheet"/>
@@ -16,7 +16,7 @@
     <title>Get Happy</title>
 </head>
 
-<body>
+<body class="contact">
 <nav class="navbar navbar-expand-xl navbar-light">
     <div class="container">
         <a class="navbar-brand" href="#"><img src="img/logo.png" class="logo"></a>
@@ -39,64 +39,71 @@
                 <li class="nav-item">
                     <a class="nav-link" href="new-patient-login.html">NEW PATIENT</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="return-patient-login.html">RETURNING PATIENT</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="faq.html">FAQ</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="contact.html">CONTACT</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-<div class="login">
-    <div class="container text-center">
+<div class="section-header">
+    <div class="overlay"></div>
+    <div class="container">
+        <p>Contact</p>
+    </div>
+</div>
+<div class="section1 text-center">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-5 left-col">
-                <div class="align-middle">
-                    <p class="header">Take the first step to </p>
-                    <p class="header">high-quality, convenient </p>
-                    <p class="header">psychiatric care!</p>
-                    <p>Secure, Confidential, 100% Compliant with HIPAA Regulations.</p>
+            <div class="col-lg-6">
+                <h2>Get in Touch</h2>
+                <p><span>Email:</span> help@skypiatrist.com</p>
+                <p><span>To contact by telephone :</span> 84-G-E-T-H-A-P-P-Y (844-384-2779)</p>
+                <p><span>Mailing Address:</span> <br>
+                    34 3rd ave, #171,<br>
+                    New York, NY 10003</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe width="680" height="475" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=34%203rd%20ave%2C%20%23171%2C%20New%20York%2C%20NY%2010003&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <a href="https://www.pureblack.de/webdesign/">webdesign pureblack gmbh</a></div>
+                    <style>.mapouter {
+                        text-align: right;
+                        height: 475px;
+                        width: 680px;
+                    }
+
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 475px;
+                        width: 680px;
+                    }</style>
                 </div>
             </div>
-
-            <div class="col-lg-7 login-form">
-                <p>I am a:</p>
-                <div class="patient-type">
-                    <a href="new-patient-login.html"><img src="img/group-20.png"></a>
-                    <span>New Patient</span>
-                </div>
-                <div class="patient-type selected">
-                    <a><img src="img/group-21.png"></a>
-                    <span>Returning Patient</span>
-                </div>
-                <form>
-                    <div class="form-group">
-                        <label for="email">Email ID</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                               placeholder="Enter your email address">
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Password</label>
-                        <input type="password" class="form-control" id="password"
-                               placeholder="Enter your password">
-                    </div>
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Remember Me</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Login</button>
-                </form>
-            </div>
-
-
         </div>
     </div>
 </div>
+<div class="section2 text-center">
+    <div class="container">
+
+        <div class="header">Have an appointment from your home, on your lunch break, or<br>
+            when out of town.
+        </div>
+    </div>
+    <div class="btn btn-primary big">Schedule an Appointment Now</div>
+
+</div>
+<hr>
 <div class="section-five">
     <div class="container">
         <div class="row">

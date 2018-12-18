@@ -48,6 +48,10 @@ body {
     margin-bottom: 20px;
 }
 
+.mb60 {
+    margin-bottom: 60px;
+}
+
 .mt20 {
     margin-top: 20px;
 }
@@ -72,6 +76,14 @@ body {
     font-weight: 600;
     color: #fff;
     cursor: pointer;
+    border-color: #1fb6f9;
+}
+
+.btn-primary.big {
+    height: 50px;
+    font-size: 21px;
+    line-height: 48px;
+    padding: 0 40px;
 }
 
 .custom-file-label::after {
@@ -104,4 +116,16 @@ body {
 
 .modal-body, .modal-footer {
     background: #f4f8fb;
+}
+
+
+hr {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 1440px;
 }

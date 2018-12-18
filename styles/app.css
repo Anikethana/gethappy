@@ -268,17 +268,6 @@ h2 {
     color: #1eb7f9;
 }
 
-hr {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-    width: 1440px;
-}
-
 .copy {
     font-size: 18px;
     text-align: center;
