@@ -139,3 +139,19 @@
 .appointment-modal .form-check {
     padding: 5px 50px;
 }
+
+.appointment .datepicker {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.appointment .datepicker img {
+    width: 20px;
+}
+
+.appointment .datepicker .arrow{
+    width: 40px;
+    font-size: 24px;
+    cursor: pointer;
+}
